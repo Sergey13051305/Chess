@@ -32,7 +32,7 @@ void main()
 		}
 		cout << "\n";
 	}
-#endif
+#endif //
 
 #ifdef TASK_2
 	for (int i=1; i<=n;n--)
