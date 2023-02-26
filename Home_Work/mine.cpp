@@ -1,17 +1,17 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 //#define TASK_0
 //#define TASK_1
 //#define TASK_2
 //#define TASK_3
 //#define TASK_4
-//#define TASK_5//разобрали на паре
-//#define TASK_6//разобрали на паре
+//#define TASK_5//СЂР°Р·РѕР±СЂР°Р»Рё РЅР° РїР°СЂРµ
+//#define TASK_6//СЂР°Р·РѕР±СЂР°Р»Рё РЅР° РїР°СЂРµ
 void main()
 {
 	setlocale(LC_ALL, "Rus");
 	int n;
-	cout << "Введите число для отображения фигуры: "; cin >> n;
+	cout << "Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ РґР»СЏ РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ С„РёРіСѓСЂС‹: "; cin >> n;
 #ifdef TASK_0
 	for (int i = 1; i <= n; i++)
 	{
