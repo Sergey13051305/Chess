@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 #define UPPER_LEFT_ANGLE   (char)218
 #define RIGHT_UPPER_ANGLE  (char)191
@@ -20,7 +20,7 @@ void main()
 		cout << i << "\t" << (char)i << endl;
 	}*/
 	int n;
-	cout << "ÂÂåäèòå ðàçìåð äîñêè: "; cin >> n; n++;
+	cout << "Ð’Ð’ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð´Ð¾ÑÐºÐ¸: "; cin >> n; n++;
 
 	setlocale(LC_ALL, "C");
 	for (int i = 0; i <= n; i++)
@@ -33,7 +33,7 @@ void main()
 			else if (i == n && j == n)cout << LOWER_RIGHT_ANGLE;
 			else if (i == 0 || i == n)cout << HORIZONTAL_LINE << HORIZONTAL_LINE;
 			else if (j == 0 || j == n)cout << VERTICAL_LINE;
-			//Íóæíî çàìåíèòü íà òåðíàðíèê
+			//ÐÑƒÐ¶Ð½Ð¾ Ð·Ð°Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ Ð½Ð° Ñ‚ÐµÑ€Ð½Ð°Ñ€Ð½Ð¸Ðº
 			//else i % 2 == j % 2 ? cout << WHITE_BOX << WHITE_BOX : cout << BLACK_BOX << BLACK_BOX;
 			else cout << (i % 2 == j % 2 ? WHITE_BOX : BLACK_BOX);
 			/*else if (i % 2 == j % 2)cout << WHITE_BOX << WHITE_BOX;
