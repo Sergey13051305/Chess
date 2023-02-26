@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include <iomanip>
 using namespace std;
 
@@ -7,7 +7,7 @@ void main()
 	setlocale(LC_ALL, "Rus");
 
 	int a, b = 1;
-	cout << "Ââåäèòå êîëè÷åñòâî ñòðîê äëÿ ïèðàìèäû Ïàñêàëÿ: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÑ‚Ñ€Ð¾Ðº Ð´Ð»Ñ Ð¿Ð¸Ñ€Ð°Ð¼Ð¸Ð´Ñ‹ ÐŸÐ°ÑÐºÐ°Ð»Ñ: ";
 	cin >> a;
 
 	for (int i = 0; i < a; i++)
